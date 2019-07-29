@@ -10,8 +10,6 @@ achieved by using the express.Router object. For example, we can create our wiki
 module named wiki.js, and then export the Router object, as shown below:
 */
 
-
-
 // wiki.js - Wiki route module
 
 var express = require('express');
@@ -28,3 +26,15 @@ router.get('/about', function(req, res) {
 });
 
 module.exports = router;
+
+// -----------------------------------------------------------------------------------------------------------------
+
+/* 
+To use the router in our main app file we would then require() the route module (wiki.js), 
+then call use() on the Express application to add the Router to the middleware handling path. 
+The two routes will then be accessible from /wiki/ and /wiki/about/.
+*/
+
+var wiki = require('./wiki.js');
+// ...
+app.use('/wiki', wiki);
