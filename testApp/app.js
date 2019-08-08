@@ -36,8 +36,17 @@ app.get("/about", (req, res) => {
     res.send("About us");
 });
 
-app.get('/user/:username',(req,res) => {
+app.get('/user/:username', (req,res) => {
     res.send("<h1>Hello, "+ req.params.username + "</h1>");
 }); 
+
+// Request URL: http://localhost:3000/user?firstName=yash&lastName=raj
+app.get("/user", (req, res) => {
+    console.log(req.query.firstName);
+    console.log(req.query.lastName);
+    res.json({
+        "message": `The data coming from GET url is -> ${req.query.firstName} ${req.query.lastName}`
+    });
+});
 
 app.listen(port, () => console.log(`Test app listening on port ${port}!`));
