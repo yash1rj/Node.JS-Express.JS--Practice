@@ -1,0 +1,6 @@
+{showId:3001, showDateTime:2018-07-10, movieId:2001, fare:150, availableSeats:45}, 
+{showId:3002, showDateTime:2018-07-11, movieId:2002, fare:180, availableSeats:45},
+{showId:3003, showDateTime:2018-07-10, movieId:2004, fare:150, availableSeats:50},
+{showId:3004, showDateTime:2018-07-12, movieId:2001, fare:130, availableSeats:39},
+{showId:3005, showDateTime:2018-07-11, movieId:2002, fare:180, availableSeats:60},
+{showId:3006, showDateTime:2018-07-12, movieId:2003, fare:150, availableSeats:40}
