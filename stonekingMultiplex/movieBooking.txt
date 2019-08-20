@@ -1,0 +1,6 @@
+{"bookingId":1001,"customerName":"Sam","bookingCost":300,"showId":3002},
+{"bookingId":1002,"customerName":"Henry","bookingCost":600,"showId":3001},
+{"bookingId":1003,"customerName":"Alan","bookingCost":720,"showId":3003},
+{"bookingId":1004,"customerName":"Nick","bookingCost":360,"showId":3004},
+{"bookingId":1005,"customerName":"Andy","bookingCost":320,"showId":3005},
+{"bookingId":1006,"customerName":"James","bookingCost":220,"showId":3006}
